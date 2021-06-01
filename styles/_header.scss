@@ -1,0 +1,32 @@
+
+header{
+    height: 100vh;
+    background: lightblue;
+    button{
+        background: $primarybtn;
+        &::after{
+            content: "hello there";
+        }
+    }
+}
+
+
+// @mixin sample
+// @mixin flex-center($direction, $bg) {
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: $direction;
+//     background: $bg;
+// }
+
+// header{
+//     @include flex-center(column, rgb(71, 152, 184));
+//     button{
+//         background: $primarybtn;
+//         &::after{
+//             content: "hello there";
+//         }
+//     }
+// }
